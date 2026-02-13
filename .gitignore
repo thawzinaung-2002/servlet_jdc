@@ -1,8 +1,23 @@
-/.metadata/
-Servers
-*.jar
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+target/
+bin/
 *.class
-**.settings
-**.project
-**.classpath
-target/**
+*.jar
+*.war
+*.ear
+
+# Eclipse specific
+.metadata/
+.project
+.classpath
+.settings/
+.recommenders/
+RemoteSystemsTempFiles/
+Servers/
+
+# External Tooling
+.externalToolBuilders/
