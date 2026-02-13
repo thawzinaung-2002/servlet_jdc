@@ -2,3 +2,7 @@
 Servers
 *.jar
 *.class
+.settings
+.project
+.classpath
+target/**
