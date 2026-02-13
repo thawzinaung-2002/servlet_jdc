@@ -1,0 +1,10 @@
+<%@ tag language="java" pageEncoding="UTF-8"%>
+
+<%@ attribute name="label" required="true" type="java.lang.String" %>
+
+<%@ attribute name="cssClass" required="true" type="java.lang.String" %>
+
+<div class="${cssClass }">
+			<label for="${label }" class="form-label">${label }</label>
+			<jsp:doBody></jsp:doBody>			
+</div>
