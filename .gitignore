@@ -3,6 +3,6 @@ Servers
 *.jar
 *.class
 .settings
-.project
-.classpath
+**.project
+**.classpath
 target/**
